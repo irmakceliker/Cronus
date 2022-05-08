@@ -1,0 +1,408 @@
+body {
+    font-family: "Century Gothic";
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    position: fixed;
+    width: 100vw;
+    background-color: #fdfdfd;
+    z-index: 2;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #e579f8;
+}
+
+.navbar-inverse {
+    border-top: 0px;
+    border-color: #c179e7;
+}
+
+.navP {
+    float: right;
+}
+
+.logoN {
+    width:60%;
+    margin-top: -50px;
+}
+
+.row.content {
+    height: 450px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+footer {
+    background-color: #ffffff89;
+    color: white;
+    padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .ovideo {
+        width: 70vw;
+        height: 40vh;
+    }
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+    .logoF {
+        width: 70vw !important;
+    }
+    .logoN {
+        width: 7vw;
+    }
+    .navP {
+        float: none;
+        text-align: center;
+    }
+    .section {
+        width: 100vw;
+    }
+    .fT {
+        padding: 0px 30px;
+        margin-top: 2.5vh;
+    }
+    .goAboutF {
+        width: 60% !important;
+        margin-top: 8vh;
+    }
+    .goReportsS {
+        width: 60% !important;
+    }
+    .aboutP {
+        font-size: 2.5vw !important;
+        font-family: sans-serif !important;
+    }
+    .aboutT {
+        font-size: 17vw !important;
+        font-family: sans-serif !important;
+    }
+    .aboutI {
+        margin: 0% 7% !important;
+        padding-top: 15% !important;
+    }
+    .reportsI {
+        margin: 0% 7% !important;
+        padding-top: 15% !important;
+    }
+    .reportsT {
+        font-size: 17vw !important;
+        font-family: sans-serif !important;
+    }
+    .reportsAll {
+        display: block !important;
+    }
+    .oneReport {
+        width: 100% !important;
+        font-size: large !important;
+        font-family: sans-serif !important;
+        padding-top: 1vh !important;
+    }
+    .fileRR {
+        padding-top: 0% !important;
+    }
+    .fileR {
+        width: 15vw !important;
+        height: 7vh;
+    }
+    .goTeamS {
+        width: 60% !important;
+    }
+    .teamI {
+        margin: 0% 7% !important;
+        padding-top: 15% !important;
+    }
+    .teamT {
+        font-size: 17vw !important;
+        font-family: sans-serif !important;
+    }
+    .teamAll {
+        padding-top: 0% !important;
+        width: 100% !important;
+        display: block !important;
+    }
+    .oneTeam {
+        width: 100% !important;
+        font-size: 6vw !important;
+        text-align: -webkit-center !important;
+        display: grid !important;
+        font-family: sans-serif !important;
+    }
+    .photos {
+        margin-top: 2% !important;
+        width: 15vw !important;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .aboutP {
+        font-size: 3.9vw !important;
+        font-family: sans-serif !important;
+    }
+    .logoN {
+        width: 8vw;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .logoN {
+        width: 11vw;
+    }
+    .aboutP {
+        font-size: 3.6vw !important;
+        font-family: sans-serif !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logoN {
+        width: 12vw;
+    }
+    .aboutP {
+        font-size: 3.5vw !important;
+        font-family: sans-serif !important;
+    }
+}
+
+@media screen and (max-height: 800px) {}
+
+.section {
+    height: 100vh;
+    width: 99.1vw;
+}
+
+.first {
+    background-image: url("../images/irmak.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    background-blend-mode: multiply;
+    background-position: center;
+    color: rgb(0, 0, 0);
+}
+
+.logoF {
+    padding-top: 20vh;
+    width: 20vw;
+}
+
+.fT {
+    font-size: large;
+}
+
+.inB {
+    opacity: 70%;
+    z-index: 0;
+}
+
+.goAboutF {
+    color: black;
+    border-radius: 5%;
+    border-width: 3px;
+    width: 15%;
+    height: 4%;
+    border-color: #245b5d;
+    background-color: 716060;
+    margin-top: 5vh;
+    font-size: large;
+    transition-duration: 0.5s;
+}
+
+.goAboutF:hover {
+    transition-duration: 0.5s;
+    background-color: #79e7b2;
+    color: white;
+    border-color: white;
+}
+
+.downI {
+    height: 50%;
+}
+
+.about {
+    background-image: url("../images/asde.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #9a9a9a;
+    background-blend-mode: multiply;
+    background-position: center;
+    color: rgb(247, 240, 240);
+}
+
+.aboutI {
+    margin: 0% 15%;
+    padding-top: 3%;
+    height: 100%;
+
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 700px #e7dddd;
+}
+
+.aboutT {
+    font-size: 6vw;
+    color: #e64c4c;
+    font-weight: bold;
+}
+
+.aboutP {
+    font-size: 1.5vw;
+    padding: 2% 3%;
+}
+
+.videoPoster {
+    background-color: mediumpurple;
+}
+
+.poster {
+    background-color: mediumpurple;
+}
+
+.posterim {
+    height: 60vh;
+    max-width: 70vw;
+}
+
+.ovideo {
+    width: 70vw;
+    height: 60vh;
+}
+
+.goReportsS {
+    color: black;
+    border-radius: 5%;
+    width: 30%;
+    height: 5%;
+    border-color: #245b5d;
+    background-color: gainsboro;
+    margin-top: 4vh;
+    font-size: x-large;
+    transition-duration: 0.5s;
+}
+
+.goReportsS:hover {
+    transition-duration: 0.5s;
+    background-color: #e5d5ec;
+    color: white;
+    border-color: white;
+}
+
+.reports {
+    background-color: #eadcf1;
+}
+
+.reportsI {
+    margin: 0% 15%;
+    padding-top: 3%;
+    height: 100%;
+    background-color: #eacbfa;
+    color: white;
+    box-shadow: 0px 0px 700px #e3c8ff;
+}
+
+.reportsT {
+    font-size: 6vw;
+    color: #e64c4c;
+    font-weight: bold;
+}
+
+.reportsAll {
+    padding-top: 4%;
+    width: 100%;
+    display: flex;
+}
+
+.oneReport {
+    width: 20%;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+.fileRR {
+    padding-top: 10%;
+}
+
+.fileB {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.fileR {
+    width: 13vw;
+}
+
+.goTeamS {
+    color: black;
+    border-radius: 5%;
+    width: 30%;
+    height: 5%;
+    border-color: #1ebda1d6;
+    background-color: gainsboro;
+    margin-top: 5vh;
+    font-size: x-large;
+    transition-duration: 0.5s;
+}
+
+.goTeamS:hover {
+    transition-duration: 0.5s;
+    background-color: #716060;
+    color: white;
+    border-color: white;
+}
+
+.team {
+    background-color: #eacbfa;
+}
+
+.teamI {
+    margin: 0% 15%;
+    padding-top: 7%;
+    height: 100%;
+    background-color: #eadcf1;
+    color: rgb(24, 1, 1);
+    box-shadow: 0px 0px 700px #eacbfa;
+}
+
+.teamT {
+    font-size: 6vw;
+    color: #e64c4c;
+    font-weight: bold;
+}
+
+.teamAll {
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+}
+
+.oneTeam {
+    width: 25%;
+    font-size: 1.8vw;
+}
+
+.photos {
+    margin-top: 20%;
+    border-radius: 50%;
+    width: 93%;
+    box-shadow: 5px 5px 70px #e3c8ff;
+    border: 4px solid rgb(255, 255, 255);
+    transition-duration: 0.3s;
+}
+
+.photos:hover {
+    transition-duration: 0.3s;
+    filter: grayscale(1);
+}

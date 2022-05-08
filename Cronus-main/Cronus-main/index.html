@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cronus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand scroller" href="#first"><img class="logoN" src="images/handFinalLogoBl.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navP">
+                    <li class="active navSc firstS"><a class="scroller" href="#first">Home</a></li>
+                    <li class="navSc"><a class="scroller" href="#about">About</a></li>
+                    <li class="navSc"><a class="scroller" href="#videoPoster">Video</a></li>
+                    <li class="navSc"><a class="scroller" href="#poster">Poster</a></li>
+                    <li class="navSc"><a class="scroller" href="#reports">Reports</a></li>
+                    <li class="navSc"><a class="scroller" href="#team">Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="all">
+        <div class="text-center">
+            <div class="first section" id="first">
+                <img class="logoF" src="images/handLogoW.png">
+                <p class="fT">
+                    A Project Management Tool
+                </p>
+            </div>
+            <div class="about section" id="about">
+                <div class="aboutI">
+                    <t1 class="aboutT">
+                        About
+                    </t1>
+                    <p class="aboutP">
+                        Cronus is a project management webapp for project
+                        developer teams that is available online. Users are able to plan the
+                        project, release their works and track each others’ work on this platform that
+                        creates a neat environment for their project management process with the
+                        help of Cronus. While users are able to track their process, they can also
+                        be on top of things by tracking others’ progress and work. Moreover they can
+                        be able to split the work between the teammates and prioritize the tasks. Cronus will bring order for your teamwork projects.
+                         
+                    </p>
+                </div>
+            </div>
+            <div class="videoPoster section" id="videoPoster">
+                <div class="reportsI">
+                    <t1 class="reportsT">
+                        Video
+                    </t1>
+                    <div class="allvidp">
+                        <iframe class="ovideo" src="https://youtu.be/N_TG995cyo4" frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
+                    </div>
+
+
+                    <button class="goReportsS scroller inB" href="#poster">
+                        Poster
+                        <img class="downI" src="images/down.png">
+                    </button>
+                </div>
+            </div>
+            <div class="poster section" id="poster">
+                <div class="reportsI">
+                    <t1 class="reportsT">
+                        Poster
+                    </t1>
+                    <div class="allvidp">
+                        <a href="images/poster.pdf"><img class="posterim" src="images/poster.png" /></a>
+                    </div>
+
+
+                    <button class="goReportsS scroller inB" href="#reports">
+                        Reports
+                        <img class="downI" src="images/down.png">
+                    </button>
+                </div>
+            </div>
+            <div class="reports section" id="reports">
+                <div class="reportsI">
+                    <t1 class="reportsT">
+                        Reports
+                    </t1>
+                    <div class="reportsAll">
+                        <div class="oneReport">Project Specification Report
+                            <form class="fileRR" method="get" action="./reports/ProjectSpecifications.pdf">
+                                <button class="fileB" type="submit"><img class = "fileR" type="submit" src="./images/fileBl.png"></button>
+                            </form>
+                        </div>
+                        <div class="oneReport">Analysis Report
+                            <form class="fileRR" method="get" action="./reports/AnalysisReport.pdf">
+                                <button class="fileB" type="submit"><img class = "fileR" type="submit" src="./images/fileBl.png"></button>
+                            </form>
+                        </div>
+                        <div class="oneReport">High Level Design Report
+                            <form class="fileRR" method="get" action="./reports/HighLevelDesign_Cronus (1).pdf">
+                                <button class="fileB" type="submit"><img class = "fileR" type="submit" src="./images/fileBl.png"></button>
+                            </form>
+                        </div>
+                        <div class="oneReport">Low Level Design Report
+                            <form class="fileRR" method="get" action="./reports/Low (1).pdf">
+                                <button class="fileB" type="submit"><img class = "fileR" type="submit" src="./images/fileBl.png"></button>
+                            </form>
+                        </div>
+                        <div class="oneReport">Final Report
+                            <form class="fileRR" method="get" action="./reports/final rapor.pdf">
+                                <button class="fileB" type="submit"><img class = "fileR" type="submit" src="./images/fileBl.png"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team section" id="team">
+                <div class="teamI">
+                    <t1 class="teamT">
+                        Team
+                    </t1>
+                    <div class="teamAll">
+                        <div class="oneTeam">Irmak Çeliker
+                            <img class="photos" src="images/p07_3.jpg">
+                        </div>
+                        <div class="oneTeam">Gizem Karal
+                            <img class="photos" src="images/p07_2.jpeg">
+                        </div>
+                        <div class="oneTeam">Gökberk Boz
+                            <img class="photos" src="images/p07_5.jpeg">
+                        </div>
+                        <div class="oneTeam">Fatih Karahan
+                            <img class="photos" src="images/p07_4.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <p>Copyright © 2021 All Rights Reserved.</p>
+    </footer>
+
+</body>
+<script>
+    $(".scroller").on('click', function(e) {
+        e.preventDefault();
+        var target = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: ($(target).offset().top)
+        }, 1000);
+    });
+    $(".navSc").click(function() {
+        $(".navSc").removeClass("active");
+        $(this).addClass("active");
+        $(".navbar-toggle").click();
+    });
+    $(".navbar-brand").click(function() {
+        $(".navSc").removeClass("active");
+        $(".firstS").addClass("active");
+    });
+</script>
+
+</html>
