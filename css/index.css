@@ -322,6 +322,10 @@ footer {
     display: flex;
 }
 
+.ovideo {
+    width: 70vw;
+    height: 60vh;
+}
 .oneReport {
     width: 20%;
     font-size: 1.8vw;
